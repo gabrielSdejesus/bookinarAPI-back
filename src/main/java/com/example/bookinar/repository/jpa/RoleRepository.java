@@ -1,4 +1,4 @@
-package com.example.bookinar.repository;
+package com.example.bookinar.repository.jpa;
 
 import com.example.bookinar.entity.user.RoleEntity;
 import org.springframework.data.jpa.repository.JpaRepository;

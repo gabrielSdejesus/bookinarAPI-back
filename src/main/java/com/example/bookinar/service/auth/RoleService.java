@@ -2,7 +2,7 @@ package com.example.bookinar.service.auth;
 
 import com.example.bookinar.entity.user.RoleEntity;
 import com.example.bookinar.exception.BusinessException;
-import com.example.bookinar.repository.RoleRepository;
+import com.example.bookinar.repository.jpa.RoleRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

@@ -30,6 +30,6 @@ public class ProductController {
 
     @GetMapping(value = "/{id}")
     public ResponseEntity<ProductDTO> findById(@PathVariable("id") Long id) throws BusinessException {
-        return new ResponseEntity<>(productService.findByIdDto(id), HttpStatus.OK);
+        return new ResponseEntity<>(productService.findByIdDTO(id), HttpStatus.OK);
     }
 }

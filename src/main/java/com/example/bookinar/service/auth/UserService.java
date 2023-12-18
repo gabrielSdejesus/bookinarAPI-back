@@ -8,7 +8,7 @@ import com.example.bookinar.entity.user.RoleEntity;
 import com.example.bookinar.entity.user.UserEntity;
 import com.example.bookinar.exception.ApiNotFoundException;
 import com.example.bookinar.exception.BusinessException;
-import com.example.bookinar.repository.UserRepository;
+import com.example.bookinar.repository.jpa.UserRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.security.authentication.AuthenticationManager;

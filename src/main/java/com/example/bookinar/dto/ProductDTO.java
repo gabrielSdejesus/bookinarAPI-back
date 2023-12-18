@@ -25,4 +25,5 @@ public class ProductDTO {
     private Integer rating;
     @JsonProperty(access = JsonProperty.Access.READ_ONLY)
     private List<PhotosProductDTO> photos;
+    private ProductDetailsDTO productDetails;
 }

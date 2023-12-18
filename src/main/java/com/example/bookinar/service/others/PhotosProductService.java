@@ -1,11 +1,11 @@
 package com.example.bookinar.service.others;
 
 import com.example.bookinar.dto.DownloadPhotoDTO;
-import com.example.bookinar.entity.enums.Status;
 import com.example.bookinar.entity.PhotosProduct;
 import com.example.bookinar.entity.Product;
+import com.example.bookinar.entity.enums.Status;
 import com.example.bookinar.exception.BusinessException;
-import com.example.bookinar.repository.PhotosProductRepository;
+import com.example.bookinar.repository.jpa.PhotosProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.http.ContentDisposition;
